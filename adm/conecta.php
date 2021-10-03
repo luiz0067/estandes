@@ -1,8 +1,8 @@
-﻿<?php
-$host		=	"mysql17.redehost.com.br";
-	$login		=	"oficialestandes";
-	$password	=	"&TR*r62o";
-	$base_dados	=	"oficialestandes";
+<?php
+$host		=	"YOUR HOST";
+	$login		=	"USER NAME";
+	$password	=	"PASSWORD";
+	$base_dados	=	"DATABASE";
 
 if (!$link = mysql_connect($host, $login, $password)) {
     echo 'Não foi possível conectar ao mysql';
